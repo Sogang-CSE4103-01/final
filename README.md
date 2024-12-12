@@ -49,6 +49,43 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 ## 📂 프로젝트 디렉토리 구조
 1. Backend : Backend 코드가 담겨있는 디렉토리
 2. Frontend : Frontend 코드가 담겨있는 디렉토리
-3. Documents : test plan, architectural drivers 등 개발 문서가 들어 있는 디렉토리
+3. 
+### Explanation of Key Directories and Files:
+
+- `__mocks__/`  
+  Contains mock files used for unit tests or test simulations.
+
+- `resources/`  
+  Stores static resources, such as images, fonts, or configuration files.
+
+- `src/`  
+  The main source code directory, which contains components, logic, and application features.
+
+- `webos-meta/`  
+  Metadata specific to WebOS platform development.
+
+- `.eslintignore` & `.eslintrc`  
+  Files related to ESLint, used to enforce coding standards and ignore specified files.
+
+- `.prettierrc`  
+  Configuration file for Prettier, ensuring consistent code formatting.
+
+- `HOW-TO-TEST.md`  
+  A guide on how to test the application.
+
+- `README.md`  
+  Contains detailed information about the project, setup, and usage instructions.
+
+- `com.app.enact-template_1.0.0_all.ipk`  
+  A packaged version of the application ready for deployment.
+
+- `next.config.js`  
+  Configuration file for the Next.js framework.
+
+- `package.json` & `package-lock.json`  
+  Contain project metadata and a locked version of installed dependencies.
+
+
+4. Documents : test plan, architectural drivers 등 개발 문서가 들어 있는 디렉토리
 
 ---
