@@ -54,7 +54,7 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 
 ### Project Directory Structure
 
-The following is the directory structure of the project:
+The following is the directory structure of the project:  
 [frontend]
 ```bash
 __mocks__
