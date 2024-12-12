@@ -55,6 +55,7 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 ### Project Directory Structure
 
 The following is the directory structure of the project:
+[frontend]
 ```bash
 ├── mocks
 │   ├── app1.h
@@ -75,6 +76,116 @@ The following is the directory structure of the project:
 └── test
 ```
 
+[backend]
+.
+├── Dockerfile
+├── HELP.md
+├── README.md
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    │   ├── java
+    │   │   ├── WebConfig
+    │   │   │   └── WebConfig.java
+    │   │   └── com
+    │   │       └── example
+    │   │           └── demo
+    │   │               ├── DemoApplication.java
+    │   │               ├── controller
+    │   │               │   ├── CommentController.java
+    │   │               │   ├── FileUploadController.java
+    │   │               │   ├── IPAddressUtil.java
+    │   │               │   ├── IPController.java
+    │   │               │   ├── LinkedPlaylistController.java
+    │   │               │   ├── PlaylistController.java
+    │   │               │   ├── UserController.java
+    │   │               │   ├── VideoController.java
+    │   │               │   ├── VideoUploadController.java
+    │   │               │   └── VideowatchedController.java
+    │   │               ├── model
+    │   │               │   ├── Comment.java
+    │   │               │   ├── LinkedPlaylist.java
+    │   │               │   ├── Playlist.java
+    │   │               │   ├── User.java
+    │   │               │   ├── Video.java
+    │   │               │   └── Videowatched.java
+    │   │               ├── repository
+    │   │               │   ├── CommentRepository.java
+    │   │               │   ├── LinkedPlaylistRepository.java
+    │   │               │   ├── PlaylistRepository.java
+    │   │               │   ├── UserRepository.java
+    │   │               │   ├── VideoRepository.java
+    │   │               │   └── VideowatchedRepository.java
+    │   │               └── service
+    │   │                   ├── CommentService.java
+    │   │                   ├── LinkedPlaylistService.java
+    │   │                   ├── PlaylistService.java
+    │   │                   ├── UserService.java
+    │   │                   ├── VideoService.java
+    │   │                   └── VideowatchedService.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── templates
+    │       │   └── register.html
+    │       ├── thumbnails
+    │       │   ├── 1.jpg
+    │       │   ├── 10.jpg
+    │       │   ├── 11.jpg
+    │       │   ├── 12.jpg
+    │       │   ├── 13.jpg
+    │       │   ├── 14.jpg
+    │       │   ├── 15.jpg
+    │       │   ├── 16.jpg
+    │       │   ├── 17.jpg
+    │       │   ├── 18.jpg
+    │       │   ├── 19.jpg
+    │       │   ├── 2.jpg
+    │       │   ├── 20.jpg
+    │       │   ├── 21.jpg
+    │       │   ├── 22.jpg
+    │       │   ├── 3.jpg
+    │       │   ├── 4.jpg
+    │       │   ├── 5.jpg
+    │       │   ├── 6.jpg
+    │       │   ├── 7.jpg
+    │       │   ├── 8.jpg
+    │       │   └── 9.jpg
+    │       └── videos
+    │           ├── 1.mp4
+    │           ├── 10.mp4
+    │           ├── 11.mp4
+    │           ├── 12.mp4
+    │           ├── 13.mp4
+    │           ├── 14.mp4
+    │           ├── 15.mp4
+    │           ├── 16.mp4
+    │           ├── 17.mp4
+    │           ├── 18.mp4
+    │           ├── 19.mp4
+    │           ├── 2.mp4
+    │           ├── 20.mp4
+    │           ├── 21.mp4
+    │           ├── 22.mp4
+    │           ├── 3.mp4
+    │           ├── 4.mp4
+    │           ├── 5.mp4
+    │           ├── 6.mp4
+    │           ├── 7.mp4
+    │           ├── 8.mp4
+    │           └── 9.mp4
+    └── test
+        └── java
+            └── com
+                └── example
+                    └── demo
+                        └── DemoApplicationTests.java
 
 ### Explanation of Key Directories and Files:
 - `__mocks__/`  
