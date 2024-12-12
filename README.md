@@ -52,11 +52,11 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 3. 
 
 
-# Project Directory Structure
+### Project Directory Structure
 
 The following is the directory structure of the project:
 
-project-root/ ├── mocks/ # Mock files for testing ├── resources/ # Project resources and assets ├── src/ # Source code of the application ├── webos-meta/ # WebOS-specific metadata ├── .eslintignore # ESLint ignore rules ├── .eslintrc # ESLint configuration ├── .gitignore # Git ignore rules ├── .prettierrc # Prettier configuration ├── HOW-TO-TEST.md # Instructions for testing the application ├── README.md # Project documentation ├── com.app.enact-template_1.0.0_all.ipk # Packaged application file ├── next.config.js # Configuration file for Next.js ├── package-lock.json # NPM dependency lock file ├── package.json # Project metadata and dependencies
+
 
 ### Explanation of Key Directories and Files:
 - `__mocks__/`  
