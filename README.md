@@ -55,7 +55,25 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 ### Project Directory Structure
 
 The following is the directory structure of the project:
-
+```bash
+├── mocks
+│   ├── app1.h
+│   │   ├──
+│   │   ├──
+│   │   ├── 
+│   ├── app2.h
+│   └── common.h
+├── src
+│   ├── App
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   ├── AppState.js
+│   │   ├── package.json
+│   ├── app2.cpp
+│   ├── main.cpp
+│   └── test.cpp
+└── test
+```
 
 
 ### Explanation of Key Directories and Files:
