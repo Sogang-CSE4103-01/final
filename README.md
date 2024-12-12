@@ -57,23 +57,78 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 The following is the directory structure of the project:
 [frontend]
 ```bash
-├── mocks
-│   ├── app1.h
-│   │   ├──
-│   │   ├──
-│   │   ├── 
-│   ├── app2.h
-│   └── common.h
-├── src
-│   ├── App
-│   │   ├── App.js
-│   │   ├── App.test.js
-│   │   ├── AppState.js
-│   │   ├── package.json
-│   ├── app2.cpp
-│   ├── main.cpp
-│   └── test.cpp
-└── test
+__mocks__
+├── @enact
+│   └── webos
+│       └── LS2Request.js
+├── com.webos.applicationManager
+│   └── launch.json
+├── com.webos.memorymanager
+│   ├── getProcStat-2136700690.json
+│   └── getUnitList-1886768026.json
+└── com.webos.service.tv.systemproperty
+    └── getSystemInfo-533910236.json
+resources
+└── ilibmanifest.json
+src
+├── App
+│   ├── App.js
+│   ├── App.test.js
+│   ├── AppState.js
+│   └── package.json
+├── assets
+│   ├── 3.jpg
+│   ├── video0.jpg
+│   ├── video1.jpg
+│   ├── video2.jpg
+│   ├── video3.jpg
+│   ├── video4.jpg
+│   ├── video5.jpg
+│   ├── video6.jpg
+│   ├── ㄴ.jpg
+│   └── ㅇ.jpg
+├── constants
+│   └── domEvents.js
+├── hooks
+│   └── useData.js
+├── index.js
+├── libs
+│   ├── log.js
+│   ├── request.js
+│   ├── services.js
+│   ├── svg.js
+│   ├── testutils.js
+│   └── utils.js
+└── views
+    ├── Context.js
+    ├── DetailPanel.js
+    ├── Login.js
+    ├── Login.module.less
+    ├── LoginState.js
+    ├── LogoutState.js
+    ├── LunaAPI.js
+    ├── Main.js
+    ├── Main.module.less
+    ├── MainState.js
+    ├── SettingPanel.js
+    ├── Signup.js
+    ├── Signup.module.less
+    ├── SignupState.js
+    ├── VideoManager.js
+    ├── VideoPlayer.css
+    ├── VideoPlayer.js
+    ├── address.js
+    ├── comments.js
+    ├── lunaUtils.js
+    ├── playlist.js
+    ├── statusCheck.js
+    ├── systemMonitor.js
+    ├── systemUtils.js
+    ├── useBackHandler.js
+    └── useWatchedVideos.js
+webos-meta
+├── appinfo.json
+└── icon.png
 ```
 
 [backend]
