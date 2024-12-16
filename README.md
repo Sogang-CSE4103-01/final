@@ -47,14 +47,9 @@ Media Web Application은 다양한 미디어 콘텐츠를 스트리밍하고 사
 ---
 
 ## 📂 프로젝트 디렉토리 구조
-1. Backend : Backend 코드가 담겨있는 디렉토리
-2. Frontend : Frontend 코드가 담겨있는 디렉토리
-3. 
 
+각 디렉토리 별 자료 구조:
 
-### Project Directory Structure
-
-The following is the directory structure of the project:  
 [frontend]
 ```bash
 __mocks__
